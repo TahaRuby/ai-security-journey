@@ -1,0 +1,10 @@
+{
+    "name": "Ruby",
+    "age": 16,
+    "course": "Python",
+    "grades": [
+        18,
+        20,
+        15
+    ]
+}
