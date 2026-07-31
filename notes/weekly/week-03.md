@@ -64,3 +64,57 @@ JSON is a common format for storing and exchanging data between programs.
 json.dump() converts Python data into JSON and saves it into a file.
 
 json.load() reads JSON data from a file and converts it back into Python data.
+
+---
+
+# Day 3 - JSON List Manager
+
+## Learned
+
+- Storing multiple items using a list of dictionaries.
+- Reading existing data from a JSON file.
+- Adding new data to an existing list.
+- Updating and saving JSON files.
+- Using append() to add new items to a list.
+
+## Practice
+
+- 10-json-list-manager
+
+## Problems
+
+- Understanding the difference between changing data in memory and saving changes permanently.
+- Understanding why data needs to be loaded before updating it.
+
+## Notes
+
+A list of dictionaries is a useful way to store structured data.
+
+This concept is the foundation of small applications like task managers and note-taking apps.
+
+JSON files can be used as simple storage systems for programs.# Day 3 - JSON List Manager
+
+## Learned
+
+- Storing multiple items using a list of dictionaries.
+- Reading existing data from a JSON file.
+- Adding new data to an existing list.
+- Updating and saving JSON files.
+- Using append() to add new items to a list.
+
+## Practice
+
+- 10-json-list-manager
+
+## Problems
+
+- Understanding the difference between changing data in memory and saving changes permanently.
+- Understanding why data needs to be loaded before updating it.
+
+## Notes
+
+A list of dictionaries is a useful way to store structured data.
+
+This concept is the foundation of small applications like task managers and note-taking apps.
+
+JSON files can be used as simple storage systems for programs.
