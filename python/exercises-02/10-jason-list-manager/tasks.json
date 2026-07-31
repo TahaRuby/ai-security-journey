@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Learn Python",
+        "done": false
+    },
+    {
+        "title": "Practice Git",
+        "done": true
+    },
+    {
+        "title": "Learn JSON",
+        "done": false
+    }
+]
