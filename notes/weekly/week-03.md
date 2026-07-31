@@ -36,3 +36,31 @@ The main reason for this change is to improve my English skills and make my lear
 A file allows a program to store data permanently.
 
 ---
+
+# Day 2 - JSON Basics
+
+## Learned
+
+- What JSON is and why it is used.
+- Difference between Python dictionary and JSON format.
+- json.dump()
+- json.load()
+- Converting Python data into JSON.
+- Reading JSON data and converting it back into Python objects.
+
+## Practice
+
+- 09-json-basics
+
+## Problems
+
+- Understanding the difference between Python dictionaries and JSON files.
+- Understanding how data moves between Python and JSON.
+
+## Notes
+
+JSON is a common format for storing and exchanging data between programs.
+
+json.dump() converts Python data into JSON and saves it into a file.
+
+json.load() reads JSON data from a file and converts it back into Python data.
