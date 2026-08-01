@@ -1,38 +1,40 @@
 # Week 03 - Python Practical
 
 ## Goals
+
 - Learn file handling
 - Learn JSON
 - Learn requests library
 - Build small API scripts
 
-
 ---
 
 # Day 1 - File Handling
 
-# Weekly Notes Format Update
+## Weekly Notes Format Update
 
-From today, I will write my weekly notes in English.  
+From today, I will write my weekly notes in English.
+
 The main reason for this change is to improve my English skills and make my learning journey accessible to others who may read these notes.
 
 ## Learned
+
 - open()
 - read()
 - write()
 - append()
 - with open()
 
-
 ## Practice
+
 - 08-write-read-file
 
-
 ## Problems
+
 - Difference between "w" and "a"
 
-
 ## Notes
+
 A file allows a program to store data permanently.
 
 ---
@@ -92,29 +94,57 @@ A list of dictionaries is a useful way to store structured data.
 
 This concept is the foundation of small applications like task managers and note-taking apps.
 
-JSON files can be used as simple storage systems for programs.# Day 3 - JSON List Manager
+JSON files can be used as simple storage systems for programs.
+
+---
+
+# Day 4 - Working with APIs
 
 ## Learned
 
-- Storing multiple items using a list of dictionaries.
-- Reading existing data from a JSON file.
-- Adding new data to an existing list.
-- Updating and saving JSON files.
-- Using append() to add new items to a list.
+- What an API is.
+- How programs communicate with external services.
+- Sending HTTP requests using the requests library.
+- Understanding API responses.
+- Reading JSON responses from APIs.
 
 ## Practice
 
-- 10-json-list-manager
+- 11-first-api-call
 
 ## Problems
 
-- Understanding the difference between changing data in memory and saving changes permanently.
-- Understanding why data needs to be loaded before updating it.
+- Understanding the structure of API responses.
+- Understanding how JSON data from APIs can be used inside Python programs.
 
 ## Notes
 
-A list of dictionaries is a useful way to store structured data.
+APIs allow programs to communicate with each other and exchange data.
 
-This concept is the foundation of small applications like task managers and note-taking apps.
+The requests library makes it easier to send HTTP requests and work with API responses.
 
-JSON files can be used as simple storage systems for programs.
+---
+
+# Day 5 - API Status Checker
+
+## Learned
+
+- Checking API availability.
+- Understanding HTTP status codes.
+- Using response.status_code.
+- Handling successful and failed requests.
+
+## Practice
+
+- 12-api-status-check
+
+## Problems
+
+- Understanding different HTTP status codes.
+- Learning how to handle API errors.
+
+## Notes
+
+Status codes help programs understand whether a request was successful or failed.
+
+Checking API status is an important part of building reliable applications.
