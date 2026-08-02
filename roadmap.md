@@ -15,9 +15,9 @@
 - [x] مرور class, object, inheritance (OOP)
   - منبع: w3schools.com/python یا دوره پایتون کوئرا کالج
 ### هفته ۳ — پایتون کاربردی
-- [ ] کار با فایل‌ها و JSON در پایتون
-- [ ] کار با requests library (اتصال به یک API واقعی)
-- [ ] نوشتن یک اسکریپت کوچیک که به یک API وصل بشه و جواب بگیره
+- [x] کار با فایل‌ها و JSON در پایتون
+- [x] کار با requests library (اتصال به یک API واقعی)
+- [x] نوشتن یک اسکریپت کوچیک که به یک API وصل بشه و جواب بگیره
 
 ### هفته ۴ — لینوکس
 - [ ] شروع OverTheWire - Bandit → overthewire.org/wargames/bandit
