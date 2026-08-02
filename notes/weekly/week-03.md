@@ -148,3 +148,56 @@ The requests library makes it easier to send HTTP requests and work with API res
 Status codes help programs understand whether a request was successful or failed.
 
 Checking API status is an important part of building reliable applications.
+---
+
+# Day 6 - API Data Storage
+
+## Learned
+
+- Combining API requests with JSON files.
+- Saving API responses into local JSON files.
+- Using json.dump() to store external data.
+- Understanding the difference between temporary data and permanent storage.
+
+## Practice
+
+- 13-api-to-json-file
+
+## Problems
+
+- Understanding when data should be saved permanently.
+- Understanding the difference between data stored in memory and data saved in files.
+
+## Notes
+
+API responses can be stored permanently by converting them into Python data and saving them as JSON files.
+
+This concept is useful for applications that collect and process external data.
+
+---
+
+# Day 7 - OOP with API Requests
+
+## Learned
+
+- Combining classes with API requests.
+- Creating objects that manage their own data.
+- Using __init__() to initialize object data.
+- Using self variables inside methods.
+- Creating methods that perform actions.
+- Handling API responses inside a class.
+
+## Practice
+
+- 14-class-wraps-api
+
+## Problems
+
+- Understanding the difference between object data and object actions.
+- Understanding how self.username is used inside API requests.
+
+## Notes
+
+Classes help organize code by combining data and actions together.
+
+A class can store information and provide methods that use that information to perform tasks.
