@@ -1,133 +1,75 @@
-import json
-import os
+# To-Do List CLI
 
-def load_notes():
-    # اگه فایل وجود نداشته باشه (اولین اجرای برنامه)، لیست خالی برگردون
-    if not os.path.exists("notes.json"):
-        return []
-    with open("notes.json", "r") as f:
-        return json.load(f)
+A command-line to-do list manager built with Python and JSON file storage.
 
+## Features
 
-def save_notes(notes):
-    with open("notes.json", "w") as f:
-        json.dump(notes, f)
+- **Add** a new task
+- **List** all tasks with their completion status
+- **Mark** a task as done
+- **Delete** a task by id
+- **Search** tasks by keyword
 
+## How to Run
 
-def add_note(notes):
-    text = input("متن یادداشت رو وارد کن: ")
-    # id رو بر اساس تعداد یادداشت‌های فعلی می‌سازیم
-    new_id = len(notes) + 1
-    note = {"id": new_id, "text": text}
-    notes.append(note)
-    return notes
+No external dependencies — uses only the Python standard library.
 
+```bash
+python main.py
+```
 
-def show_notes(notes):
-    if not notes:
-        print("هیچ یادداشتی ثبت نشده.")
-        return
-    for note in notes:
-        print(f"[{note['id']}] {note['text']}")
+You'll see a menu where you can choose an action by entering a number (1-6).
 
+## Example Usage
 
-def delete_note(notes):
-    note_id = int(input("id یادداشتی که می‌خوای حذف کنی رو وارد کن: "))
-    # فقط یادداشت‌هایی رو نگه می‌داریم که id شون با ورودی کاربر یکی نیست
-    notes = [n for n in notes if n["id"] != note_id]
-    return notes
+```
+1. Add task
+2. List tasks
+3. Mark task as done
+4. Delete task
+5. Search tasks
+6. Exit
+Choose (1-6): 1
+Task description: Finish week 4 notes
+Task added successfully.
 
+Choose (1-6): 2
+--- Task List ---
+1. [✘] Finish week 4 notes
+```
 
-def main():
-    notes = load_notes()
+## Data Storage
 
-    while True:
-        print("\n=== Notes CLI ===")
-        print("1. افزودن یادداشت")
-        print("2. نمایش یادداشت‌ها")
-        print("3. حذف یادداشت")
-        print("4. خروج")
-        choice = input("انتخابت: ")
+Tasks are stored in `tasks.json` in the same folder, as a list of objects:
 
-        if choice == "1":
-            notes = add_note(notes)
-            save_notes(notes)
-        elif choice == "2":
-            show_notes(notes)
-        elif choice == "3":
-            notes = delete_note(notes)
-            save_notes(notes)
-        elif choice == "4":import json
-import os
+```json
+[
+    {
+        "id": 1,
+        "task": "Finish week 4 notes",
+        "done": false,
+        "created_at": "2026-08-15"
+    }
+]
+```
 
-def load_notes():
-    # اگه فایل وجود نداشته باشه (اولین اجرای برنامه)، لیست خالی برگردون
-    if not os.path.exists("notes.json"):
-        return []
-    with open("notes.json", "r") as f:
-        return json.load(f)
+The file is created automatically the first time you add a task.
 
+## Concepts Practiced
 
-def save_notes(notes):
-    with open("notes.json", "w") as f:
-        json.dump(notes, f)
+- Reading and writing JSON files (`json.load`, `json.dump`)
+- Error handling for missing or corrupted data files (`try`/`except`, `JSONDecodeError`, `OSError`)
+- Rolling back an in-memory change if saving to disk fails, so data stays consistent
+- Input validation (empty strings, invalid ids)
+- Type hints (`list[dict]`, `Optional[int]`)
+- Avoiding repeated code with shared helper functions (DRY principle)
+- Using a dictionary to dispatch menu choices instead of a long `if`/`elif` chain
 
+This project builds on the JSON list-handling basics practiced in `exercises-files-api/10-json-list-manager`, extended with proper error handling, rollback logic, and type hints.
 
-def add_note(notes):
-    text = input("متن یادداشت رو وارد کن: ")
-    # id رو بر اساس تعداد یادداشت‌های فعلی می‌سازیم
-    new_id = len(notes) + 1
-    note = {"id": new_id, "text": text}
-    notes.append(note)
-    return notes
+## Known Limitations
 
-
-def show_notes(notes):
-    if not notes:
-        print("هیچ یادداشتی ثبت نشده.")
-        return
-    for note in notes:
-        print(f"[{note['id']}] {note['text']}")
-
-
-def delete_note(notes):
-    note_id = int(input("id یادداشتی که می‌خوای حذف کنی رو وارد کن: "))
-    # فقط یادداشت‌هایی رو نگه می‌داریم که id شون با ورودی کاربر یکی نیست
-    notes = [n for n in notes if n["id"] != note_id]
-    return notes
-
-
-def main():
-    notes = load_notes()
-
-    while True:
-        print("\n=== Notes CLI ===")
-        print("1. افزودن یادداشت")
-        print("2. نمایش یادداشت‌ها")
-        print("3. حذف یادداشت")
-        print("4. خروج")
-        choice = input("انتخابت: ")
-
-        if choice == "1":
-            notes = add_note(notes)
-            save_notes(notes)
-        elif choice == "2":
-            show_notes(notes)
-        elif choice == "3":
-            notes = delete_note(notes)
-            save_notes(notes)
-        elif choice == "4":
-            break
-        else:
-            print("ورودی نامعتبره، دوباره امتحان کن.")
-
-
-if __name__ == "__main__":
-    main()
-            break
-        else:
-            print("ورودی نامعتبره، دوباره امتحان کن.")
-
-
-if __name__ == "__main__":
-    main()
+- Single-user, single-file storage — no support for concurrent access
+- No editing of existing task descriptions (only add, complete, delete, search)
+- No priority levels or due dates
+- No pagination — `list_tasks` prints everything at once
