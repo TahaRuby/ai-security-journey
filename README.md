@@ -6,10 +6,18 @@ I wanted to venture into the world of AI and security, so I started this. This r
 
 ## Structure
 
-- roadmap.md — نقشه راه کامل یادگیری
-- notes  —  توضیحات  مربوط به مسیر 
-- python  —  تمرینات و مسیر پایتون 
-- git_notes  —  دستور های مربوط به گیت
+- `roadmap.md` — نقشه راه کامل یادگیری (۵ فاز، از ریفرش پایتون تا پروژه شخصی)
+- `notes/` — یادداشت‌های هفتگی و مرجع
+  - `notes/weekly/` — گزارش روزانه‌ی هر هفته (week-01, week-02, ...)
+  - `notes/git_notes.md` — دستورهای گیت به همراه توضیح
+  - `notes/linux_notes.md` — دستورهای لینوکس به همراه توضیح
+- `python/` — تمرینات و مینی‌پروژه‌های پایتون
+  - `python/exercises-01`, `python/exercises-02` — تمرینات به ترتیب هفته
+  - `python/mini-projects` — پروژه‌های کوچیک جمع‌بندی
+
 ## Status
 
-تازه شروع کردم!
+**فاز ۰ در حال تکمیل** — هفته ۱ تا ۳ (Git، ریفرش پایتون، OOP، فایل/JSON، کار با API) کامل شده.
+الان روی هفته ۴ (لینوکس، OverTheWire Bandit) کار می‌کنم.
+
+پیشرفت کامل رو تو [roadmap.md](./roadmap.md) ببینید.
