@@ -64,8 +64,7 @@ Instead of memorizing every command's options, using man <command> and searching
 
 - 
 
-## Problems
-
+## Problems 
 - 
 
 ## Notes
