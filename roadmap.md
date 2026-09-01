@@ -20,9 +20,8 @@
 - [x] نوشتن یک اسکریپت کوچیک که به یک API وصل بشه و جواب بگیره
 
 ### هفته ۴ — لینوکس
-- [ ] شروع OverTheWire - Bandit → overthewire.org/wargames/bandit
-- [ ] رسیدن حداقل تا level 10-15
-- [ ] (جایگزین) TryHackMe - Linux Fundamentals
+- [x] شروع OverTheWire - Bandit → overthewire.org/wargames/bandit
+- [x] رسیدن حداقل تا level 10-15
 
 ---
 
