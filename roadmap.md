@@ -21,7 +21,7 @@
 
 ### هفته ۴ — لینوکس
 - [x] شروع OverTheWire - Bandit → overthewire.org/wargames/bandit
-- [x] رسیدن حداقل تا level 10-15
+- [x] رسیدن حداقل تا level 10-15 
 
 ---
 
