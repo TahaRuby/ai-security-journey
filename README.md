@@ -17,7 +17,7 @@ I wanted to venture into the world of AI and security, so I started this. This r
 
 ## Status
 
-**فاز ۰ در حال تکمیل** — هفته ۱ تا ۳ (Git، ریفرش پایتون، OOP، فایل/JSON، کار با API) کامل شده.
-الان روی هفته ۴ (لینوکس، OverTheWire Bandit) کار می‌کنم.
+**فاز ۰ کامل شد ✅** — هفته ۱ تا ۴ (Git، ریفرش پایتون، OOP، فایل/JSON، API، Linux/Bandit تا level 17) تموم شده.
+الان روی **فاز ۱ — امنیت وب پایه** (هفته ۵ تا ۸) کار می‌کنم.
 
 پیشرفت کامل رو تو [roadmap.md](./roadmap.md) ببینید.

@@ -12,8 +12,8 @@
 
 ### هفته ۲ — مرور پایتون (پایه + OOP)
 - [x] مرور variables, loops, functions
-- [x] مرور class, object, inheritance (OOP)
-  - منبع: w3schools.com/python یا دوره پایتون کوئرا کالج
+- [x] مرور class, object, inheritance (OOP) 
+- منبع: w3schools.com/python یا دوره پایتون کوئرا کالج
 ### هفته ۳ — پایتون کاربردی
 - [x] کار با فایل‌ها و JSON در پایتون
 - [x] کار با requests library (اتصال به یک API واقعی)
