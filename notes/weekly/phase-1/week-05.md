@@ -28,14 +28,26 @@ gobuster dir -u http://target.com -w wordlist.txt
 
 ---
 
-# Day 2 — Python Practice
+Day 2 — Python Practice
 
 ## Learned
 
-* Started creating Python exercises from **easy to harder problems**.
-* Practiced basic programming logic and user input.
-* Built a **Rock, Paper, Scissors** game.
-* Built a **Bmi_Calculations**.
-* Built a **Bingo**game.
-* Built a **PasswordGenerator**.
-* Built a **file_organaizer**  
+- Started creating Python exercises from easy to harder problems.
+- Practiced basic programming logic and user input.
+- Built a **Rock, Paper, Scissors** game.
+- Built a **BMI Calculator**.
+- Built a **Bingo Game**.
+- Built a **Password Generator**.
+- Built a **File Organizer**.
+- Built a **Weather Client**.
+- Practiced working with Python modules and external libraries.
+- Started learning Object-Oriented Programming (OOP) concepts such as classes, inheritance, and abstract classes.
+
+Problems
+
+- I was not familiar with using the "pathlib" library for working with file paths.
+- I had difficulty understanding how to use Abstract Base Classes (ABC) in the Password Generator exercise.
+
+Key Takeaway
+
+Today I improved my Python fundamentals by building small practical projects instead of only solving isolated exercises. I also started moving toward more structured Python programming with modules and OOP.
