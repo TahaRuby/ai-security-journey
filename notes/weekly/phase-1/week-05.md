@@ -35,3 +35,4 @@ gobuster dir -u http://target.com -w wordlist.txt
 * Started creating Python exercises from **easy to harder problems**.
 * Practiced basic programming logic and user input.
 * Built a **Rock, Paper, Scissors** game.
+* Built a **Bmi_Calculations**.
