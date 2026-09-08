@@ -37,3 +37,4 @@ gobuster dir -u http://target.com -w wordlist.txt
 * Built a **Rock, Paper, Scissors** game.
 * Built a **Bmi_Calculations**.
 * Built a **Bingo**game.
+* Built a **PasswordGenerator**.
