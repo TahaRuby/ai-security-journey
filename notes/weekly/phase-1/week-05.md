@@ -28,7 +28,7 @@ gobuster dir -u http://target.com -w wordlist.txt
 
 ---
 
-Day 2 — Python Practice
+# Day 2 — Python Practice
 
 ## Learned
 
@@ -43,11 +43,23 @@ Day 2 — Python Practice
 - Practiced working with Python modules and external libraries.
 - Started learning Object-Oriented Programming (OOP) concepts such as classes, inheritance, and abstract classes.
 
-Problems
+## Problems
 
 - I was not familiar with using the "pathlib" library for working with file paths.
 - I had difficulty understanding how to use Abstract Base Classes (ABC) in the Password Generator exercise.
 
-Key Takeaway
+### Key Takeaway
 
 Today I improved my Python fundamentals by building small practical projects instead of only solving isolated exercises. I also started moving toward more structured Python programming with modules and OOP.
+
+
+# Day 3 - Python Practice 2 
+
+## Learned
+
+- Built a **palidrome**
+
+
+
+## problems
+
