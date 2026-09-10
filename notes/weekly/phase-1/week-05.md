@@ -57,9 +57,7 @@ Today I improved my Python fundamentals by building small practical projects ins
 
 ## Learned
 
-- Built a **palidrome**
-
-
-
+- Built a **palidrome**.
+- Built a **Matrix row culum**.
 ## problems
 
