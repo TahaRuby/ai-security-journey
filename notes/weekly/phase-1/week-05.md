@@ -68,3 +68,5 @@ Today I improved my Python fundamentals by building small practical projects ins
 ## Learned
 
 - Built a **longest_word**.
+* complete chapter 1 and start chapter 2 python gui exercises
+-
