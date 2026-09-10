@@ -14,6 +14,7 @@ I wanted to venture into the world of AI and security, so I started this. This r
 - `python/` — تمرینات و مینی‌پروژه‌های پایتون
   - `python/exercises-01`, `python/exercises-02` — تمرینات به ترتیب هفته
   - `python/mini-projects` — پروژه‌های کوچیک جمع‌بندی
+  - `python/30_project_R` — ۳۰ پروژه دوره مستر کلاس پایتون علی بیگدلی
 
 ## Status
 
