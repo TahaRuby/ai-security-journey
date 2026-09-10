@@ -63,3 +63,8 @@ Today I improved my Python fundamentals by building small practical projects ins
 ## problems
 
 
+# Day 4 - Python Practice 3
+
+## Learned
+
+- Built a **longest_word**.
