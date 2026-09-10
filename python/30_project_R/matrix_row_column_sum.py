@@ -1,5 +1,6 @@
 # import variable and module
 
+
 # create function
 def get_row_count():
     return int(input("Enter number of rows: "))
