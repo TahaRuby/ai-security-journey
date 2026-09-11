@@ -67,6 +67,16 @@ Today I improved my Python fundamentals by building small practical projects ins
 
 ## Learned
 
+* i learned  how to work   and use **tkinter**
 - Built a **longest_word**.
 * complete chapter 1 and start chapter 2 python gui exercises.
 - Built a **Alarm_clock**.
+
+# Day 5 - paython practice 4 
+
+
+## Learned 
+
+* i learned  how to work   and use **qtpy6**
+
+- built a **bmi calculator v2**
