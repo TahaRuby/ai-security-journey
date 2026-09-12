@@ -88,5 +88,5 @@ Today I improved my Python fundamentals by building small practical projects ins
 
 * learned how to  use **pyside6**
 
-
+- built **Note_app_V2**
 
