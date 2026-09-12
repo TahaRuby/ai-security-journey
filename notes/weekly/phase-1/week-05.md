@@ -72,11 +72,21 @@ Today I improved my Python fundamentals by building small practical projects ins
 * complete chapter 1 and start chapter 2 python gui exercises.
 - Built a **Alarm_clock**.
 
-# Day 5 - paython practice 4 
+# Day 5 - python practice 4 
 
 
 ## Learned 
 
-* i learned  how to work   and use **qtpy6**
+* i learned  how to  use **qtpy6**
 
 - built a **bmi calculator v2**
+
+# Day 6 - python practice 5 
+
+
+# Learned 
+
+* learned how to  use **pyside6**
+
+
+
