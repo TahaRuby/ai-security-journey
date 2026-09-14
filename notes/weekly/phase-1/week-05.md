@@ -90,3 +90,7 @@ Today I improved my Python fundamentals by building small practical projects ins
 
 - built **Note_app_V2**
 
+
+# Day 7 - python practice 6
+
+# Learned
