@@ -4,15 +4,15 @@
 
 ### Offensive vs Defensive Security
 
-* **Offensive Security:** Simulating attacker behavior to identify vulnerabilities before real attackers can exploit them.
-* **Defensive Security:** Protecting systems, networks, and applications against attacks.
+* **Offensive Security:** Simulating attacker behavior to find vulnerabilities before real attackers can exploit them.
+* **Defensive Security:** Protecting systems, networks, and applications from attacks.
 * This course focuses on the **Offensive Security** path, including **Penetration Testing** and **Red Teaming**.
 
 ### Directory Brute-Forcing with Gobuster
 
-* Some websites contain hidden directories or pages that are not linked from the main website but are still accessible on the server.
-* **Gobuster** is a command-line tool that can discover these directories by testing names from a **wordlist** against a target website.
-* This technique is known as **directory brute-forcing**.
+* Some websites have hidden directories or pages that are not linked from the main page but can still be accessed.
+* **Gobuster** is a command-line tool that can find these directories by testing names from a **wordlist**.
+* This is called **directory brute-forcing**.
 
 ### Basic Command
 
@@ -20,11 +20,11 @@
 gobuster dir -u http://target.com -w wordlist.txt
 ```
 
-* `dir` → tells Gobuster to search for directories
-* `-u` → specifies the target URL
-* `-w` → specifies the wordlist to use
+* `dir` → search for directories
+* `-u` → target URL
+* `-w` → wordlist
 
-> **Note:** Only perform directory enumeration against systems you own or have explicit permission to test.
+> **Note:** Only perform directory enumeration on systems you own or have permission to test.
 
 ---
 
@@ -32,65 +32,88 @@ gobuster dir -u http://target.com -w wordlist.txt
 
 ## Learned
 
-- Started creating Python exercises from easy to harder problems.
-- Practiced basic programming logic and user input.
-- Built a **Rock, Paper, Scissors** game.
-- Built a **BMI Calculator**.
-- Built a **Bingo Game**.
-- Built a **Password Generator**.
-- Built a **File Organizer**.
-- Built a **Weather Client**.
-- Practiced working with Python modules and external libraries.
-- Started learning Object-Oriented Programming (OOP) concepts such as classes, inheritance, and abstract classes.
+* Started doing Python exercises from easy to harder problems.
+* Practiced basic logic and user input.
+* Built a **Rock, Paper, Scissors** game.
+* Built a **BMI Calculator**.
+* Built a **Bingo Game**.
+* Built a **Password Generator**.
+* Built a **File Organizer**.
+* Built a **Weather Client**.
+* Practiced using Python modules and external libraries.
+* Started learning OOP, including classes, inheritance, and abstract classes.
 
 ## Problems
 
-- I was not familiar with using the "pathlib" library for working with file paths.
-- I had difficulty understanding how to use Abstract Base Classes (ABC) in the Password Generator exercise.
+* I was not familiar with the `pathlib` library.
+* I had difficulty understanding how **Abstract Base Classes (ABC)** work in the Password Generator.
 
 ### Key Takeaway
 
-Today I improved my Python fundamentals by building small practical projects instead of only solving isolated exercises. I also started moving toward more structured Python programming with modules and OOP.
+I learned more by building small projects instead of only doing simple exercises. I also started getting more familiar with modules and OOP.
 
+---
 
-# Day 3 - Python Practice 2 
-
-## Learned
-
-- Built a **palidrome**.
-- Built a **Matrix row culum**.
-
-## problems
-
-
-# Day 4 - Python Practice 3
+# Day 3 — Python Practice 2
 
 ## Learned
 
-* i learned  how to work   and use **tkinter**
-- Built a **longest_word**.
-* complete chapter 1 and start chapter 2 python gui exercises.
-- Built a **Alarm_clock**.
+* Built a **Palindrome** checker.
+* Built a **Matrix Row and Column** exercise.
 
-# Day 5 - python practice 4 
+## Problems
 
+* I got stuck on the loops for the matrix exercise.
+* I had some difficulty understanding how rows and columns work in a matrix.
 
-## Learned 
+---
 
-* i learned  how to  use **qtpy6**
+# Day 4 — Python Practice 3
 
-- built a **bmi calculator v2**
+## Learned
 
-# Day 6 - python practice 5 
+* Learned how to use **Tkinter**.
+* Built a **longest_word** exercise.
+* Completed **Chapter 1** and started **Chapter 2** of the Python GUI exercises.
+* Built an **Alarm_clock**.
 
+---
 
-# Learned 
+# Day 5 — Python Practice 4
 
-* learned how to  use **pyside6**
+## Learned
 
-- built **Note_app_V2**
+* Learned how to use **PyQt6**.
+* Built a **BMI Calculator V2**.
 
+---
 
-# Day 7 - python practice 6
+# Day 6 — Python Practice 5
 
-# Learned
+## Learned
+
+* Learned how to use **PySide6**.
+* Built a **Note_app_V2**.
+
+---
+
+# Day 7 — Python Practice 6
+
+## Learned
+
+* Learned how to use **Kivy**.
+* Learned how to use **pyenv** to manage different Python versions.
+* Learned how to create a Python virtual environment with **venv**.
+* Built **13_weather_app_v2**.
+
+## Problems
+
+* The Kivy project needed an older Python version, but my system was using **Python 3.14**.
+* I couldn't install Python 3.12 directly with `apt` because it was not available in my Ubuntu repositories.
+* I used **pyenv** to install Python **3.12.11** without changing my system Python.
+* Created a `.venv` for the project and installed **Kivy 2.3.1** inside it.
+* At first, `pyenv` was not available after opening a new terminal, so I had to fix its shell configuration.
+
+### Key Takeaway
+
+Today I learned that I don't need to change my system Python just because one project needs another version. I can use **pyenv** for different Python versions and **venv** to keep each project's packages separate.
