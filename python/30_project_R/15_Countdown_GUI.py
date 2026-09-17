@@ -11,8 +11,7 @@ from PySide6.QtWidgets import (
     QHBoxLayout
 )
 
-from PySide6.QtCore import QTimer
-
+from PySide6.QtCore import QTimer, Qt
 
 # create application
 
