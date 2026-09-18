@@ -9,10 +9,20 @@
 ## problem
 
 
-# Day 2 python practice 8 
+# Day 2 Python Practice 8
+
+## Learned
+
+* Built a `Countdown_GUI`
+* Organized and documented the Linux section of the repository.
+
+## Problem
+
+* No major problem.
+
+# Day 3 python practice 9 
 
 ## Learned 
 
-* Built a Countdown_GUI
 
-# problem
+## problem
