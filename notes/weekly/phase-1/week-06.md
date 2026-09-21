@@ -23,12 +23,22 @@
 
 # Day 3 python practice 9 
 
+## Learned 
+
 * Built a Gallery_GUI
 
-## Learned 
+## problem
+
+
+# Day 4  
+
+*   create v2 roadmap and add english roadmap
+
+## Learned
 
 
 ## problem
+
 
 # Day 4
 
@@ -38,4 +48,5 @@
 
 
 ## problem
+
 
