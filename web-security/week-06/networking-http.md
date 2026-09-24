@@ -70,3 +70,64 @@ example.com
 ```
 
 **Key point:** DNS does not connect my browser to the website by itself. It helps my system discover the IP address needed to communicate with the destination.
+
+
+---
+
+## 2. Ports
+
+### Questions
+
+* What is a port?
+
+  * A port is a logical endpoint used by network services to communicate.
+
+* Why do we need ports?
+
+  * A single computer can run many network services at the same time.
+  * Ports allow the operating system to distinguish between different network services.
+
+* What is the difference between an IP address and a port?
+
+  * An IP address identifies a host.
+  * A port identifies a network endpoint associated with a service on that host.
+
+For example:
+
+```text
+192.168.1.10:22
+
+192.168.1.10 → IP address
+22           → Port
+Common Ports
+Port	Service
+22	SSH
+53	DNS
+80	HTTP
+443	HTTPS
+Test
+ss -tuln
+Observation
+
+The command shows network sockets that are listening on my system.
+
+For example, an entry such as:
+
+127.0.0.53:53
+
+means that a service is listening on port 53 on the local address 127.0.0.53.
+
+The LISTEN state means that the service is waiting for incoming TCP connections.
+
+My Understanding
+
+An IP address tells us which host we want to communicate with, while a port tells us which network service or endpoint we want to communicate with on that host.
+
+For example:
+
+192.168.1.10:22
+       │      │
+       │      └── Port 22
+       └───────── IP address
+
+So an IP address and a port work together to identify a network endpoint
