@@ -79,3 +79,29 @@ openssl s_client -connect <host>:<port>
 ```bash
 openssl s_client -connect localhost:30001
 ```
+
+## `ss`
+
+Shows network sockets, listening ports, and active connections.
+
+Command:
+
+    ss -tuln
+
+Show listening ports and the processes using them:
+
+    sudo ss -tulnp
+
+Example:
+
+    sudo ss -tulnp
+
+This can show information such as:
+
+    127.0.0.53:53     systemd-resolve
+    127.0.0.1:631      cupsd
+    127.0.0.1:43023    code
+
+- `53` → DNS endpoint
+- `631` → CUPS printing service
+- `43023` → VS Code process
