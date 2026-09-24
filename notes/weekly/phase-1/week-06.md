@@ -54,6 +54,14 @@
 
 ## Learned 
 
+* 
+
+## problem
+
+
+# Day 7 
+
+## Learned
 
 ## problem
 
