@@ -4,13 +4,13 @@
 
 Connects to a remote machine using the SSH protocol.
 
-```bash
+```
 ssh user@host -p port
 ```
 
 **Example:**
 
-```bash
+```
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
@@ -20,13 +20,13 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 Connects to a remote machine using a specified private key for authentication.
 
-```bash
+```
 ssh -i <private_key> user@host -p port
 ```
 
 **Example:**
 
-```bash
+```
 ssh -i ~/Downloads/sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 ```
 
@@ -36,13 +36,13 @@ ssh -i ~/Downloads/sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
 
 Transfers files between local and remote systems over SSH.
 
-```bash
+```
 scp -P port <source> <destination>
 ```
 
 **Example:**
 
-```bash
+```
 scp -P 2220 bandit13@bandit.labs.overthewire.org:/home/bandit13/sshkey.private ~/Downloads/
 ```
 
@@ -52,56 +52,73 @@ scp -P 2220 bandit13@bandit.labs.overthewire.org:/home/bandit13/sshkey.private ~
 
 ## `nc`
 
-Creates a TCP or UDP connection to a host and port.
+Netcat is a networking utility used to create and test network connections.
 
-```bash
+```
 nc <host> <port>
 ```
 
 **Example:**
 
-```bash
+```
 nc localhost 30000
 ```
+
+Test a TCP connection:
+
+```
+nc -vz example.com 443
+```
+
+* `-v` → verbose output
+* `-z` → test the connection without sending data
 
 ---
 
 ## `openssl s_client`
 
-Connects to an SSL/TLS service for testing or communication.
+Connects to an SSL/TLS service for testing.
 
-```bash
+```
 openssl s_client -connect <host>:<port>
 ```
 
 **Example:**
 
-```bash
+```
 openssl s_client -connect localhost:30001
 ```
+
+---
 
 ## `ss`
 
 Shows network sockets, listening ports, and active connections.
 
-Command:
-
-    ss -tuln
+```
+ss -tuln
+```
 
 Show listening ports and the processes using them:
 
-    sudo ss -tulnp
+```
+sudo ss -tulnp
+```
 
-Example:
+**Example:**
 
-    sudo ss -tulnp
+```
+sudo ss -tulnp
+```
 
 This can show information such as:
 
-    127.0.0.53:53     systemd-resolve
-    127.0.0.1:631      cupsd
-    127.0.0.1:43023    code
+```
+127.0.0.53:53     systemd-resolve
+127.0.0.1:631      cupsd
+127.0.0.1:43023    code
+```
 
-- `53` → DNS endpoint
-- `631` → CUPS printing service
-- `43023` → VS Code process
+* `53` → DNS endpoint
+* `631` → CUPS printing service
+* `43023` → VS Code process

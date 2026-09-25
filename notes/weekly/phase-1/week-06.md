@@ -39,30 +39,37 @@
 
 ## problem
 
+* No major problem.
+
 
 # Day 5
 
 
-
 ## Learned 
 
 
 ## problem
+
+* No major problem.
 
 
 # Day 6 
 
+
 ## Learned 
 
-* 
 
 ## problem
+
+* No major problem.
+
 
 
 # Day 7 
 
 ## Learned
 
+
 ## problem
 
-
+* No major problem.
