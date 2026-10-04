@@ -4,15 +4,18 @@ A self-taught journey into **AI Security and Red Teaming**, documented from foun
 
 ## Structure
 
-* `roadmap.md` — Learning roadmap covering the planned phases of the journey
+* `Roadmap.md` — Learning roadmap (English)
+* `Roadmap-fa.md` — Learning roadmap (Persian)
 * `notes/` — Weekly learning notes and progress logs
 
-  * `notes/weekly/` — Weekly learning records
-* `linux/` — Linux notes, command references, and labs
+  * `notes/weekly/phase-0/` — Weeks 1–4 (Foundation)
+  * `notes/weekly/phase-1/` — Week 5 onward (Application Security)
+* `web-security/` — Networking, HTTP, Burp, and PortSwigger notes (one folder per week)
+* `writeups/` — English security write-ups
+* `linux/` — Linux notes and command references
 
   * `linux/commands/` — Linux command references
   * `linux/notes/` — Linux learning notes
-  * `linux/labs/` — Linux hands-on labs
 * `python/` — Python exercises and mini-projects
 
   * `python/exercises-01/` — Python exercises
@@ -26,6 +29,9 @@ A self-taught journey into **AI Security and Red Teaming**, documented from foun
 
 Weeks 1–4 covered Git, Python refresh, OOP, files and JSON, APIs, and Linux/Bandit through Level 17.
 
-**Current:** Phase 1 — Web Security Fundamentals (Weeks 5–8)
+**Phase 1 — Application Security (Weeks 5–11)**
 
-See [`roadmap.md`](./roadmap.md) for the complete learning roadmap.
+* Week 5 — Security intro + Python projects ✅
+* **Current: Week 6** — Networking + HTTP + Burp
+
+See [`Roadmap.md`](./Roadmap.md) for the complete learning roadmap.

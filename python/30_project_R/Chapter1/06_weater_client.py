@@ -16,7 +16,7 @@ class OpenWeatherProvider(WeatherAbstract):
 
     base_url = "https://api.openweathermap.org/data/3.0/onecall"
 
-    def init(self, api_key):
+    def __init__(self, api_key):
         self.api_key = api_key
 
     def get_current_weather(self, lat, lon):

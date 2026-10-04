@@ -83,7 +83,7 @@ The first version had several problems that have now been fixed:
 
 * [x] Navigation, Files, Permissions, Processes
 * [x] Networking basics
-* [x] Bandit Levels 10–15
+* [x] Bandit Levels 10–17
 * [x] Organize the Linux section of the Repository
 * [x] Notes
 

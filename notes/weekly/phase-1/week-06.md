@@ -1,75 +1,21 @@
-# Day 1 python practice 7
+# Day 1
+
 
 ## Learned
 
-* Built a calculator_GUI
-
-
+- how to work ss port  learned command and tested
 
 ## problem
-
-* No major problem
-
-# Day 2 Python Practice 8
-
-## Learned
-
-* Built a `Countdown_GUI`
-* Organized and documented the Linux section of the repository.
-
-## Problem
 
 * No major problem.
 
-# Day 3 python practice 9 
 
-## Learned 
+# Day 2
 
-* Built a Gallery_GUI
-
-## problem
-
-
-# Day 4  
-
-*   create v2 roadmap and add english roadmap
 
 ## Learned
 
 
 ## problem
 
-* No major problem.
 
-
-# Day 5
-
-
-## Learned 
-
-
-## problem
-
-* No major problem.
-
-
-# Day 6 
-
-
-## Learned 
-
-
-## problem
-
-* No major problem.
-
-
-
-# Day 7 
-
-## Learned
-
-
-## problem
-
-* No major problem.

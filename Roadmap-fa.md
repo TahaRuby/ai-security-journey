@@ -81,7 +81,7 @@ Portfolio  →  Job Search
 
 * [x] Navigation، Files، Permissions، Processes
 * [x] Networking basics
-* [x] Bandit Levels 10–15
+* [x] Bandit Levels 10–17
 * [x] مرتب کردن بخش Linux Repository
 * [x] Notes
 
