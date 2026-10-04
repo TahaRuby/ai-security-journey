@@ -10,15 +10,18 @@ A simple command-line tool that checks how strong a password is and gives sugges
 
 ## Usage
 ```bash
-python password_checker.py
+python main.py
 ```
 Enter a password when prompted, or type `exit` to quit.
 
 ## Example
 ```
 Enter your password: pass123
+
 Score: 2/5 | Strength: Medium
 Suggestions:
+ - Password must contain at least 8 characters.
  - Add at least one uppercase letter.
  - Add at least one special character, such as !@#$.
+----------------------------------------
 ```
