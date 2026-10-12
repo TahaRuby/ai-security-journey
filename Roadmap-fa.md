@@ -121,7 +121,7 @@ Requests / Responses
 اولین PortSwigger Labs
 ```
 
-* [ ] DNS، TCP، TLS، Portها (در حد مفهوم)
+* [x] DNS، TCP، TLS، Portها (در حد مفهوم)
 * [ ] Nmap basics
 * [ ] HTTP Request / Response
 * [ ] Methods، Headers، Cookies، Parameters، Status Codes

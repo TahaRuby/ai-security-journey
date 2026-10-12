@@ -123,7 +123,7 @@ Requests / Responses
 First PortSwigger Labs
 ```
 
-* [ ] DNS, TCP, TLS, Ports (conceptual level)
+* [x] DNS, TCP, TLS, Ports (conceptual level)
 * [ ] Nmap basics
 * [ ] HTTP Request / Response
 * [ ] Methods, Headers, Cookies, Parameters, Status Codes
