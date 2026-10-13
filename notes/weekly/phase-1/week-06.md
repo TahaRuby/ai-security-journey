@@ -16,14 +16,14 @@ Understand networking fundamentals, HTTP communication, and the basics of web se
 
 ### Commands Practiced
 
+Mark each command as completed only after executing it.
+
 - [ ] `getent hosts example.com`
 - [ ] `dig example.com`
 - [ ] `ip addr`
 - [ ] `ip route`
 - [ ] `curl -I https://example.com`
 - [ ] `curl -v https://example.com`
-
-Mark each command as completed only after executing it.
 
 ### Notes
 
@@ -34,23 +34,48 @@ Mark each command as completed only after executing it.
 
 ### Key Takeaways
 
-- DNS resolves names into network-related records.
-- IP addresses and ports help identify communication destinations and endpoints.
-- TCP provides reliable, ordered data delivery.
+- DNS resolves domain names into network-related records.
+- IP addresses identify network interfaces or destinations; ports identify application endpoints.
+- TCP provides reliable, ordered byte-stream delivery.
 - TLS protects communication in transit.
 - HTTPS does not guarantee that a web application is free of vulnerabilities.
 
 ### Problems Encountered
 
-- 
+- None recorded yet.
 
 ### Day 1 Status
 
-Completed the introductory networking lesson. Practical commands and understanding should be verified before marking the day fully complete.
+Networking notes have been created and committed. Practical command execution and verification remain pending.
 
 ## Day 2 — HTTP Fundamentals
 
-Not started.
+### Topics
+
+- [x] HTTP request and response structure
+- [x] HTTP methods
+- [x] Request and response headers
+- [x] HTTP status codes
+- [ ] Practical inspection with `curl`
+
+### Notes
+
+- [HTTP Requests and Responses](../../../web-security/http/requests-responses.md)
+- [HTTP Methods, Headers and Status Codes](../../../web-security/http/methods-headers-status-codes.md)
+
+### Practical Commands
+
+- [ ] `curl -I https://example.com`
+- [ ] `curl -v https://example.com`
+- [ ] `curl -i https://example.com`
+
+### Observations
+
+To be completed after running the commands and reviewing their actual output.
+
+### Day 2 Status
+
+HTTP reference notes have been created and committed. Practical exercises remain pending.
 
 ## Day 3 — Cookies and Sessions
 
