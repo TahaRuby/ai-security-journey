@@ -157,7 +157,6 @@ Completed. Studied Cookies and Sessions, reviewed important security attributes,
 
 ## Day 4 — Burp Suite Setup
 
-Not started.
 
 ## Day 5 — Repeater and Labs
 
