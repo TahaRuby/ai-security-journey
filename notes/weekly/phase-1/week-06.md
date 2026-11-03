@@ -160,7 +160,6 @@ Completed. Studied Cookies and Sessions, reviewed important security attributes,
 
 ## Day 5 — Repeater and Labs
 
-Not started.
 
 ## Day 6 — Practical Labs and Write-up
 
